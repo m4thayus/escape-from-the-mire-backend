@@ -5,3 +5,8 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+Maze.delete_all
+
+twenty_ten_maze = Maze.create(x_dimension: 20, y_dimension: 10)
+twenty_five_maze = Maze.create(x_dimension: 25, y_dimension: 25)
