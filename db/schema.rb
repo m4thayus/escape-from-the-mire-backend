@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_07_08_191200) do
+ActiveRecord::Schema.define(version: 2019_07_10_153549) do
 
   create_table "mazes", force: :cascade do |t|
     t.text "raw_maze"
@@ -18,6 +18,14 @@ ActiveRecord::Schema.define(version: 2019_07_08_191200) do
     t.datetime "updated_at", null: false
     t.integer "x_dimension"
     t.integer "y_dimension"
+  end
+
+  create_table "users", force: :cascade do |t|
+    t.string "name"
+    t.integer "score"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.string "character_class"
   end
 
 end
