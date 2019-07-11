@@ -11,8 +11,8 @@
 Maze.delete_all
 User.delete_all
 
-twenty_ten_maze = Maze.create(x_dimension: 20, y_dimension: 10)
-twenty_five_maze = Maze.create(x_dimension: 25, y_dimension: 25)
+# twenty_ten_maze = Maze.create(x_dimension: 20, y_dimension: 10)
+# twenty_five_maze = Maze.create(x_dimension: 25, y_dimension: 25)
 
-User.create(name: 'Nick', score: 99_999_999, character_class: 'Creator')
-User.create(name: 'Matt', score: 99_999_998, character_class: 'Creator')
+User.create(name: 'Matt', score: 9999, character_class: 'Creator')
+User.create(name: 'Nick', score: 9999, character_class: 'Creator')
