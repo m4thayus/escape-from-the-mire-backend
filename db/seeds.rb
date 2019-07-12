@@ -16,3 +16,6 @@ User.delete_all
 
 User.create(name: 'Matt', score: 99999, character_class: 'Creator')
 User.create(name: 'Nick', score: 99999, character_class: 'Creator')
+User.create(name: 'Shu', score: 2450, character_class: 'Paladin')
+User.create(name: 'Peter', score: 3150, character_class: 'Ranger')
+User.create(name: 'Errol', score: 2950, character_class: 'Necromancer')
